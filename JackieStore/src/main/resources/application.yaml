@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: JackieStore
+  datasource:
+    url: jdbc:mysql://localhost:3306/Jackiedb?createDatabaseIfNotExist=true
+    username: Jackie
+    password: 1234567
+  jpa:
+    show-sql: true
